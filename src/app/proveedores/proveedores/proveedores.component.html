@@ -1,0 +1,22 @@
+<p>Llistat de proveedors, obtingut a partir d'un servici (ProveedoresService)</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>CIF</th>
+            <th>Direcció</th>
+            <th>Correu electrònic</th>
+            <th>Telefon</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let proveedor of proveedores">
+            <td>{{ proveedor.nom }}</td>
+            <td>{{ proveedor.cif }}</td>
+            <td>{{ proveedor.direccio }}</td>
+            <td>{{ proveedor.email }}</td>
+            <td>{{ proveedor.telefon }}</td>
+        </tr>
+    </tbody>
+</table>
