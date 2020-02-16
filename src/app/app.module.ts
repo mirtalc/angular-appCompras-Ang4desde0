@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 // Importar providers
 import { ProveedoresService } from './servicios/proveedores.service';
 import { ProveedoresComponent } from './proveedores/proveedores/proveedores.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProveedoresComponent
+    ProveedoresComponent,
+    InicioComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
