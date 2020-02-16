@@ -1,0 +1,11 @@
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    background-color: lightblue;
+    padding: 20px 30px;
+}
+.router-link-active{
+    background-color: darken($color: lightblue, $amount: 10);
+}

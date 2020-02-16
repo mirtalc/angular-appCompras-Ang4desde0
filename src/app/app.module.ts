@@ -9,13 +9,15 @@ import { ProveedoresService } from './servicios/proveedores.service';
 import { ProveedoresComponent } from './proveedores/proveedores/proveedores.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProveedoresComponent,
     InicioComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
